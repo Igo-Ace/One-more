@@ -9,6 +9,30 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <head>
+  ...
+  <style>
+    /* Media query untuk layar kecil (handphone) */
+    @media (max-width: 640px) {
+      body {
+        background-size: cover;
+        background-position: center;
+      }
+      #kartu {
+        width: 90%;       /* Lebar kartu menyesuaikan layar */
+        margin: 1rem;     /* Margin lebih kecil */
+        padding: 1rem;    /* Padding lebih ringkas */
+      }
+      #kartu h1 {
+        font-size: 1.5rem; /* Ukuran font lebih kecil */
+      }
+      #kartu button {
+        font-size: 0.9rem; /* Tombol lebih proporsional */
+      }
+    }
+  </style>
+</head>
+
   </head>
   <body
     style="background-image: url('./image/ARCHIVE.png')"
